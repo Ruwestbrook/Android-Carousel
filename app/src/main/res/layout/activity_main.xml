@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              xmlns:app="http://schemas.android.com/apk/res-auto"
+              android:layout_width="match_parent"
+              android:fitsSystemWindows="true"
+              android:id="@+id/root_view"
+              android:orientation="vertical"
+              android:clipToPadding="false"
+              android:layout_height="match_parent">
+<com.example.westbrook.bannerview.MyView.BannerLayout
+    app:dotSize="10dp"
+    app:dotGravity="center"
+    app:dotDistance="10dp"
+    android:id="@+id/banner_layout"
+    android:layout_width="match_parent"
+    android:layout_height="0dp"/>
+
+ <Button
+     android:layout_width="match_parent"
+     android:layout_height="wrap_content"
+     android:id="@+id/button"
+     android:text="跳转"/>
+
+</LinearLayout>

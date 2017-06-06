@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="BannerLayout">
+        <!-- 选中的点的颜色或者图片-->
+        <attr name="dotIndicatorFocus" format="color|reference"/>
+        <!-- 未选中的点的颜色或者图片-->
+        <attr name="dotIndicatorNormal" format="color|reference"/>
+        <!-- 点的大小-->
+        <attr name="dotSize" format="dimension" />
+        <!-- 点的间距-->
+        <attr name="dotDistance" format="dimension"/>
+        <!-- 点的位置-->
+        <attr name="dotGravity" format="enum">
+            <enum name="left" value="1"/>
+            <enum name="center" value="0"/>
+            <enum name="right" value="-1"/>
+        </attr>
+        <!-- 底部的颜色 -->
+        <attr name="backgroundColor" format="color"/>
+        <!-- 滑动时间间隔 -->
+        <attr name="rollSpeed" format="integer"/>
+        <!-- 动画速率 -->
+        <attr name="duration" format="integer"/>
+        <!-- 图片高度-->
+        <attr name="heightProportion" format="integer"/>
+        <!-- 图片宽度-->
+        <attr name="widthProportion" format="integer"/>
+    </declare-styleable>
+</resources>
